@@ -1,0 +1,361 @@
+*
+{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar
+{
+    background-color: #0f1111;
+    height:80px;
+    display: flex;
+}
+
+.nav-logo
+{
+    background-image: url("download.png");
+    width: 130px;
+    height: 68px;
+    background-size: cover;
+    border:1.8px solid transparent;  
+    
+}
+.nav-logo:hover
+{
+  border: 1.8px solid white;
+  display: inline-block;
+
+}
+.realaddress
+{
+    color: white;
+}
+.nav-logo:hover
+{
+    background-color: #0f1111;
+    border: 1.8px solid white;
+    display: inline-block;
+}
+.realaddress
+{
+  margin-bottom:20px ;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  display: inline-block;
+}
+.searchbar
+{
+    margin-top: 20px;
+    margin-left:11px;
+}
+.place
+{
+   height: 30px;
+   width: 700px;
+   border-radius: 6px;
+   margin-top: 24px;
+}
+.searchicon
+{
+    color: white;
+    display: inline-block;
+    background-color: green;
+    height: 35.5px;
+    border-radius: 6px;margin-top: 24px;
+} 
+.address{
+  color: #cccccc;
+  font-size: 0.85rem;
+}
+.extra
+{
+    color: white;
+    font-size: 1rem;
+    
+}
+select
+{
+    margin-top: 26px;
+    margin-bottom: 26px;
+    border-radius: 156px;
+}
+.commandss
+{
+    border: 2px solid transparent;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.commandss:hover
+{
+    color: white;
+    margin-left: 2  0px;
+    margin-top: 20px;
+    border: 2px solid white;    
+}
+.command
+{
+    color:white;
+
+}
+.acccc
+{
+    color: white;
+}
+.command
+{
+    color: #cccccc;
+    font-size:0.85rem;
+}
+.issue
+{
+    color: white;
+    border: flex;
+    border: 2px solid transparent;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.issue:hover
+{
+    color: white;
+    border: 2px solid white;
+    
+}
+.re
+{
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+.orderlogo
+{
+    color: rgb(57, 217, 65);
+    margin-left: 50px;
+    font-size: 25px;
+    display: flex;
+    margin-top: 30px;
+    border: 2px solid transparent;
+}
+.orderlogo:hover
+{
+    color: white;
+    border: 2px solid white;
+}
+.pannelmain
+{
+    background-color: #222f3d;
+    display: flex;
+    height: 40px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.options
+{
+   display: flex;
+   font-weight: 0.85rem;
+   width: 70%;
+}
+.deals
+{
+    font-size: 0.9rem;
+    font-weight:800;
+    border: 2px solid transparent;
+}
+.deals:hover
+{
+    color: white;
+    border: 2px solid white;
+}
+.cs
+{
+    margin-left: 40px;
+    border: 2px solid transparent;
+}
+.cs:hover
+{
+    color: white;
+    border: 2px solid white;
+}
+.rg
+{
+    margin-left: 40px;
+    border: 2px solid transparent;
+}
+.rg:hover
+{
+    color: white;
+    border: 2px solid white;
+}
+.gc
+{
+    margin-left: 40px;
+    border: 2px solid transparent;
+}
+.gc:hover
+{
+    color: white;
+    border: 2px solid white;
+}
+.se
+{
+    margin-left: 40px;
+    border: 2px solid transparent;
+}
+.se:hover
+{
+    color: white;
+    border: 2px solid white;
+}
+.td
+{
+    border: 2px solid transparent;
+    margin-left: 10px;
+}
+.td:hover
+{
+    color: white;
+    border: 2px solid white;
+}
+.panel
+{
+    border: 2px solid transparent;
+    margin-left: 00px;
+    margin-right: 90px;
+}
+.panel:hover
+{
+    color: white;
+    border: 2px solid white;
+}
+.body
+{
+    display: flex;
+    background-image: url("watchbodyimage.jpg");
+    background-size: cover;
+    position: absolute;
+    height: 300px;
+    width: 1600px;
+}
+.anotherimage
+{
+    background-image: url("bodyimage.jpg");
+    background-size: cover;
+    position:absolute;
+    height: 300px;
+    width: 1600px;
+}
+.shop-section
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box
+{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 10px;
+}
+.footer
+{
+    background-color: #37475a;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+.wholefooter
+{
+    margin-top: 16px;
+}
+.footpanel3
+{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footpanel2
+{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul
+{
+  margin-top: 30px;
+}
+ul a 
+{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.logohhh
+{
+    background-image: url("download.png");
+    width: 130px;
+    height: 68px;
+    background-size: cover;
+    height: 55px;
+    width: 100px;
+}
+.image1
+{
+    width: 140px;
+    height: 160px;
+    margin-left:  110px; 
+    display: flex;
+    justify-content: center;
+}
+.ac
+{
+    height:160px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.image2
+{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+}
+.jj
+{
+    height: 160px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    margin-left: 47px;
+    margin-top: 20px;
+}
+.ssd
+{
+    height: 160px;
+    margin-left: 50px;
+    margin-top: 5px;
+    display:flex;
+}
+.pppp
+{
+    height: 160px;
+    width: 260px;
+    margin-left: 48px;
+    margin-top: 18px;
+}
